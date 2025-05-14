@@ -43,6 +43,8 @@ At this point you can now synthesize the CloudFormation template for this code.
 $ cdk synth
 ```
 
+
+
 To add additional dependencies, for example other CDK libraries, just add
 them to your `setup.py` file and rerun the `pip install -r requirements.txt`
 command.
@@ -56,3 +58,36 @@ command.
  * `cdk docs`        open CDK documentation
 
 Enjoy!
+
+✅ PowerShell Script: Setup AWS CDK Prerequisites
+
+📝 How to Run:
+Open PowerShell as Administrator or VSCode (Run as Admin).
+
+Copy and paste the script above into a .ps1 file (e.g., setup-cdk.ps1) or run directly in the terminal.
+
+After installation, restart the terminal to refresh environment variables.
+
+https://vscode.dev/github/akoneru121/AWS-CDK/blob/main/Intial_prequites_script_to_setup_cdk_in_windows.ps1
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+✅ PowerShell Script: Initialize AWS CDK Python Project
+
+📝 How to Use This Script
+Open a new PowerShell terminal in VSCode.
+
+Make sure AWS credentials are configured (aws configure).
+
+Paste this script into a .ps1 file (e.g., init-cdk.ps1) or run directly.
+
+When done, your CDK project is ready to develop and deploy.
+
+https://vscode.dev/github/akoneru121/AWS-CDK/blob/main/pythoncdksetup.ps1
+
+
+
+
+
+
